@@ -18,6 +18,7 @@ function FindSecondLargestNumber(arr) {
       (secondLargest === null || arr[i] > secondLargest)
     ) {
       secondLargest = arr[i];
+      
     }
   }
 
